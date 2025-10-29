@@ -1,0 +1,51 @@
+
+.content-wrapper {
+    margin-right: 250px !important;
+    margin-left: 0px !important;
+}
+
+.main-footer{
+    margin-right: 250px !important;
+    margin-left: 0px !important;
+}
+
+.nav-sidebar .nav-link > .right, .nav-sidebar .nav-link > p > .right {
+    position: absolute;
+    right: 14rem !important;
+    left: 1rem !important;
+    top: .7rem;
+}
+
+.main-header{
+    margin-right: 250px !important;
+    margin-left: 0px !important;
+}
+
+.custom-switch {
+    padding-right: 3.25rem !important;
+}
+
+[class*=icheck-]>input:first-child+input[type=hidden]+label::before, [class*=icheck-]>input:first-child+label::before {
+content: "";
+display: inline-block;
+position: relative !important;
+width: 22px;
+height: 22px;
+border: 1px solid #D3CFC8;
+border-radius: 0;
+margin-left: 5px !important;
+}
+
+.pricing-table .pricing-features .feature {
+    font-size: 15px;
+    color: #666;
+    display: block;
+    text-align: right !important;
+    width: 100%;
+    margin: 10px auto;
+    font-weight: 500;
+}
+
+.hide{
+    display: none !important;
+}
